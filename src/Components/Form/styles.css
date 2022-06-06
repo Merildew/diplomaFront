@@ -1,0 +1,130 @@
+.user-form-section {
+  background-color: #ebe5e7;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.user-form-wrapper {
+  max-width: 1140px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.user-form {
+  width: 48.5%;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 1px solid #d9e9e9;
+  border-radius: 5px;
+  margin: 80px auto;
+  box-shadow: 0 10px 20px 0 rgb(108 135 135 / 20%);
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: Metropolis, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  font-size: 18px;
+  color: #333;
+  padding: 0 8px;
+  height: 40px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #d9e9e9;
+}
+
+.form-input:focus-visible {
+  outline: none;
+  border-bottom: 2px solid #671582;
+}
+
+.errorMessage {
+  color: rgb(210, 95, 95);
+  font-size: 16px;
+}
+
+.form-submit-button,
+.form-button {
+  margin: 20px auto 0px;
+  padding: 8px 8px;
+  font-family: Metropolis, sans-serif;
+  font-size: 24px;
+  border-radius: 5px;
+  border: none;
+  background-color: #671582;
+  color: #fff;
+}
+
+.form-submit-button:hover,
+.form-button:hover,
+.form-submit-button:focus,
+.form-button:focus,
+.form-submit-button:active,
+.form-button:active {
+  box-shadow: 1px 1px 10px 10px rgb(108 135 135 / 20%) inset;
+  cursor: pointer;
+}
+
+.form-button {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form-title {
+  margin: 24px 0;
+  color: #671582;
+}
+.form-link-wrapper {
+  font-family: Metropolis, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 16px;
+  font-weight: 400;
+}
+
+.form-link {
+  color: #671582;
+  cursor: pointer;
+}
+
+.form-select-input {
+  border: none;
+  border-bottom: 2px solid #d9e9e9;
+  font-family: Metropolis, sans-serif;
+  width: 100%;
+  font-size: 18px;
+  color: #333;
+  padding-left: 8px;
+  height: 40px;
+  outline: none;
+}
+
+.form-radio-wrapper {
+  font-family: Metropolis, sans-serif;
+  font-size: 24px;
+  color: #333;
+  text-align: left;
+  margin: 16px 0;
+}
+
+input[type="radio"] {
+  position: relative;
+  height: 10px;
+  width: 10px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  padding-left: 18px;
+}

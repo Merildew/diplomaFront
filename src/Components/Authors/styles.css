@@ -1,0 +1,80 @@
+.title-wrapper {
+  min-height: 256px;
+  background-color: #b57edc;
+  margin-top: 74px;
+  border-radius: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.author-body-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.book-header-cover {
+  position: absolute;
+  top: 18%;
+  left: 8%;
+  height: 300px;
+  border-radius: 16px;
+  border: 4px solid #671582;
+}
+
+.book-header-title {
+  color: #ebe5e7;
+  font-size: 48px;
+  margin-bottom: 18px;
+}
+
+.book-header-author {
+  color: #ebe5e7;
+  font-size: 32px;
+}
+
+.author-header-text {
+  margin-left: 10%;
+  padding-top: 26px;
+}
+
+.raiting {
+  display: flex;
+  align-items: center;
+}
+.rate-pic {
+  height: 36px;
+  width: 36px;
+}
+
+.books-val {
+  font-size: 36px;
+  color: #141d24;
+}
+
+.books-params {
+  margin: 36px 0;
+}
+
+.books-params-item {
+  font-size: 36px;
+  margin: 8px;
+  color: #141d24;
+}
+
+.bio {
+  padding: 18px 0;
+  font-size: 32px;
+  margin: 0 10%;
+}
+
+.books-review {
+  background-color: #ebe5e7;
+  height: 36px;
+  border-radius: 16px;
+  font-size: 24px;
+  padding: 16px;
+  color: #671582;
+  margin-top: 16px;
+}
